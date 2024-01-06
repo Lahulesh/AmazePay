@@ -36,7 +36,7 @@ a {
 }
 
 main {
-    padding: 10px;
+    width: 100%;
 }
 
 .title {
@@ -104,6 +104,7 @@ main {
     padding: 5px 10px;
     border-right: 4px solid transparent;
     transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    text-decoration: none;
 }
 
 .link:hover {
@@ -115,6 +116,7 @@ main {
 .active {
     border-right: 4px solid white;
     background: rgb(45, 51, 89);
+    text-decoration: none; 
 }
 
 .link_text {
@@ -145,4 +147,5 @@ main {
 .menu_container .link {
     padding-left: 20px;
     border-bottom: #fff 0.5px solid;
+    text-decoration: none; 
 }
